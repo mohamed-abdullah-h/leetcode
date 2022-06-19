@@ -3,7 +3,6 @@ class Solution {
       if(s== null || s.isBlank()||s.length()==1) return true;
         s = s.replaceAll("[^a-zA-Z0-9]","");
         s = s.toLowerCase();
-        System.out.println(s);
         s = s.trim();
         if (s.isEmpty())return true;
         int revers = s.length()-1;
